@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    background-color: rgb(37, 36, 36);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    width: 1440px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.row button {
+    padding: 20px 10px;
+    width: 150px;
+    border: 0;
+    outline: none;
+    border-radius: 7px;
+    font-size: 20px;
+    box-shadow: 0 0 20px rgb(199, 195, 195);
+    background-color: rgb(110, 175, 166);
+    transition: .7s;
+    cursor: pointer;
+}
+
+.row button:hover {
+    background-color: transparent;
+    border: 1px solid rgb(110, 175, 166);
+    color: white;
+}
+
+.rowCard { 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    row-gap: 20px;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.card {
+    width: 31%;
+    height: 400px;
+    background-color: rgb(201, 229, 245);
+    border-radius: 10px;
+    padding: 10px;
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+}
+
+.card:hover {
+    transform: scale(.9, .9);
+}
+
+.card h2 {
+    color: royalblue;
+    font-size: 30px;
+}
+
+.card p {
+    color: blue;
+    font-size: 17px;
+}
+
+.signOut {
+    margin-top: 20px;
+    margin-left: 40px;
+    padding: 7px 10px;
+    border: 0;
+    background-color: rgb(199, 25, 25);
+    box-shadow: 0 0 20px rgb(199, 195, 195);
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.signOut:hover {
+    background-color: transparent;
+}

@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    background: url("https://media.proglib.io/wp-uploads/2018/03/EzgdmaCQuT84bgDL4fhXZS.jpg") center / cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: rgb(252, 252, 253, 0.7);
+    padding: 20px;
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.card h2 {
+    text-shadow: 0 0 10px aqua;
+}
+
+.card form input {
+    width: 75%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    border: 1px solid rgb(168, 236, 168);
+    box-shadow: 0 0 10px black;
+    border-radius: 15px;
+    outline: none;
+}
+
+.card form .error {
+    color: red;
+    margin-top: 0;
+}
+
+.card form button {
+    padding: 10px 20px;
+    width: 75%;
+    background-color: aquamarine;
+    border: 0;
+    border-radius: 10px;
+    color: rgb(13, 117, 19);
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.card form button:hover {
+    background-color: rgb(230, 126, 41);
+    color: white;
+    box-shadow: 3px 3px 10px 1px  rgb(230, 126, 41);
+}
+
+.link {
+    margin-top: 30px;
+}
+
+.link a {
+    color: rgb(100, 83, 83);
+}
